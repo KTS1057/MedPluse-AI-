@@ -3,7 +3,7 @@
 
 # 🩺 MedPulse AI — Clinical Decision Support System
 
-[![Live Demo](https://img.shields.io/badge/Live_App-Streamlit_Cloud-%23FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://medpluse.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live_App-Streamlit_Cloud-%23FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://sgmwnktwncg5ezw2lpa6ho.streamlit.app/)
 [![Model Accuracy](https://img.shields.io/badge/Accuracy-88.4%25-brightgreen?style=for-the-badge)](https://medpulse-app.streamlit.app/)
 [![ROC-AUC](https://img.shields.io/badge/ROC--AUC-0.92-blue?style=for-the-badge)](https://medpulse-app.streamlit.app/)
 [![Status](https://img.shields.io/badge/Status-Active_&_Deployed-success?style=for-the-badge)](#)

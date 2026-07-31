@@ -59,9 +59,8 @@ The core ML engine employs a **Random Forest Ensemble** architecture, trained on
 ---
 
 ## 🔄 Pipeline & Architecture Workflow
+<pre>
 
-```markdown
-```text
 [ Patient Biometric Data ] 
            │
            ▼
@@ -76,48 +75,46 @@ The core ML engine employs a **Random Forest Ensemble** architecture, trained on
            ▼
 [ Interactive UI / Plotly Gauge & Radar Charts ]
 
-
-
-## 📂 Project Structure
-
-<pre>
-├── assets/                  # Visual assets and styling components
-├── models/
-│   ├── diabetes_model.pkl   # Serialized Random Forest model for diabetes
-│   └── heart_model.pkl      # Serialized Random Forest model for heart disease
-├── app.py                   # Main Streamlit application and UI logic
-├── requirements.txt         # Environment dependencies
-└── README.md                # Technical documentation
 </pre>
 
+
+📂 Project Structure
+<pre>
+├── assets/
+├── models/
+│   ├── diabetes_model.pkl
+│   └── heart_model.pkl
+├── app.py
+├── requirements.txt
+└── README.md
+</pre>
 ---
 
-## 💡 Engineering Concepts Applied
+## 📊 Key Concepts Applied
 
-* **Ensemble Learning:** Combined decision trees via Random Forest models to minimize variance and stabilize predictions across complex biometrics.
-* **Global Feature Importance Mapping:** Extracted structural model weights to demystify black-box decision logic for medical professionals.
-* **Stratified Risk Scoring:** Normalized raw multivariate physiological variables into unified risk indices.
-* **State Management:** Implemented caching strategies to handle large serialization objects seamlessly without sacrificing memory or speed.
-
----
-
-## 🎓 Key Learning Outcomes
-
-* Built an end-to-end Machine Learning pipeline from data cleaning and scaling to model serialization (`.pkl`).
-* Integrated custom Python machine learning models into a real-time web application framework using Streamlit.
-* Translated abstract statistical attributes (`feature_importances_`) into intuitive graphical dashboards.
-* Deployed and maintained cloud-hosted machine learning applications integrated with GitHub version control.
+* **Ensemble Learning:** Leveraging Random Forest classifiers to combine multiple decision trees for stable, robust predictive power.
+* **Explainable AI (XAI):** Implementing global feature importance mapping to break open the "black box" of clinical ML models.
+* **Stratified Risk Scoring:** Processing raw multivariate clinical observations into normalized target scales for comparative diagnostics.
+* **State Management & Optimization:** Utilizing dynamic memory resource hooks (`@st.cache_resource`) to handle complex serialization instances seamlessly.
 
 ---
 
-## 🔮 Roadmap & Future Scope
+## 🎓 Learning Outcomes
 
-- [ ] **Survival Analysis:** Implement time-to-onset probability models for chronic long-term conditions.
-- [ ] **EHR Integration:** Connect to standardized healthcare APIs (e.g., FHIR) for automatic record syncing.
-- [ ] **Automated Optimization:** Incorporate Optuna/GridSearchCV pipelines for dynamic hyperparameter tuning.
-- [ ] **Exportable Diagnostics:** Add one-click PDF report generation for clinician records.
+* Developed full-pipeline competency in clinical data cleaning, variable scaling, and feature optimization using Scikit-Learn.
+* Mastered architectural integration between custom Python predictive backends and interactive web interfaces via Streamlit.
+* Learned how to extract and translate statistical parameter attributes (`feature_importances_`) into human-readable clinical charts.
+* Gained experience managing production-ready cloud environments using Git version control architectures connected directly to live cloud clusters.
 
 ---
+
+## 🔮 Future Scope 
+
+- [ ] Integrate deep survival analysis models to calculate time-to-onset risk probabilities for chronic conditions.
+- [ ] Connect the application portal to standardized healthcare APIs (like FHIR) for electronic medical record integration.
+- [ ] Incorporate automated hyperparameter tuning (GridSearchCV/Optuna) workflows to dynamically increase testing threshold limits.
+- [ ] Add an encrypted automated report generation mechanism to instantly download unified diagnostics summaries as structured PDFs.
+
 
 ## 👩‍💻 Developed By
 

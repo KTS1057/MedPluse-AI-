@@ -78,43 +78,6 @@ The core ML engine employs a **Random Forest Ensemble** architecture, trained on
 </pre>
 
 
-📂 Project Structure
-<pre>
-├── assets/
-├── models/
-│   ├── diabetes_model.pkl
-│   └── heart_model.pkl
-├── app.py
-├── requirements.txt
-└── README.md
-</pre>
----
-
-## 📊 Key Concepts Applied
-
-* **Ensemble Learning:** Leveraging Random Forest classifiers to combine multiple decision trees for stable, robust predictive power.
-* **Explainable AI (XAI):** Implementing global feature importance mapping to break open the "black box" of clinical ML models.
-* **Stratified Risk Scoring:** Processing raw multivariate clinical observations into normalized target scales for comparative diagnostics.
-* **State Management & Optimization:** Utilizing dynamic memory resource hooks (`@st.cache_resource`) to handle complex serialization instances seamlessly.
-
----
-
-## 🎓 Learning Outcomes
-
-* Developed full-pipeline competency in clinical data cleaning, variable scaling, and feature optimization using Scikit-Learn.
-* Mastered architectural integration between custom Python predictive backends and interactive web interfaces via Streamlit.
-* Learned how to extract and translate statistical parameter attributes (`feature_importances_`) into human-readable clinical charts.
-* Gained experience managing production-ready cloud environments using Git version control architectures connected directly to live cloud clusters.
-
----
-
-## 🔮 Future Scope 
-
-- [ ] Integrate deep survival analysis models to calculate time-to-onset risk probabilities for chronic conditions.
-- [ ] Connect the application portal to standardized healthcare APIs (like FHIR) for electronic medical record integration.
-- [ ] Incorporate automated hyperparameter tuning (GridSearchCV/Optuna) workflows to dynamically increase testing threshold limits.
-- [ ] Add an encrypted automated report generation mechanism to instantly download unified diagnostics summaries as structured PDFs.
-
 
 ## 👩‍💻 Developed By
 

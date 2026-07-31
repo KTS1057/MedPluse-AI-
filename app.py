@@ -92,7 +92,7 @@ st.markdown(f"""
     <div style="display: flex; justify-content: space-between; align-items: center;">
         <div>
             <h1 style='color: #38bdf8; margin: 0; font-size: 28px; font-weight: 800;'>🏥 MedPulse AI Diagnostic Suite</h1>
-            <p style='color: #cbd5e1; margin: 6px 0 0 0; font-size: 14px;'>Clinical Decision Support System | Major Engineering Project</p>
+            <p style='color: #cbd5e1; margin: 6px 0 0 0; font-size: 14px;'>Developed by <b>Kratarth Srivastava</b> | B.Tech in Artificial Intelligence & Data Science</p>
         </div>
         <div style="text-align: right;">
             <span style="background: rgba(2, 132, 199, 0.4); border: 1px solid #38bdf8; color: white; padding: 6px 16px; border-radius: 20px; font-weight: 600; font-size: 13px;">
@@ -293,3 +293,6 @@ with st.sidebar.expander("📈 Model Validation Benchmarks"):
     st.markdown("**ROC-AUC Score:** 0.92")
     st.markdown("**Cross-Validation:** 5-Fold CV")
     st.caption("Validated on benchmark clinical datasets.")
+
+st.sidebar.markdown("---")
+st.sidebar.caption("👨‍💻 **Developer:** Kratarth Srivastava")
